@@ -1,0 +1,148 @@
+/*<--------------- Responsividade --------------->*/
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    h1 {
+        font-size: 3em;
+    }
+
+    .logo {
+      font-size: 1.2em;
+      margin: 1.2px;
+    }
+
+    header nav ul li {
+    font-size: 10px;
+    margin: 1px;
+    padding: 4px;
+    }
+
+    .conteudo-enredo {
+        width: 70%;
+        top: 20%;
+        padding: 15px;
+        font-size: 1em;
+        letter-spacing: 5px;
+    }
+
+    .conteudo-cenario {
+        top: 10%;
+        bottom: 15%;
+        font-size: 1em;
+        letter-spacing: 4px;
+    }
+
+    footer h4 {
+        color: #919496;
+        font-size: 0.8em;
+        text-transform: uppercase;
+    }
+ }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    h1 {
+        font-size: 3em;
+    }
+    .logo {
+      font-size: 1.3em;
+      margin: 1.5px;
+    }
+
+    header nav ul li {
+        font-size: 10px;
+        margin: 1px;
+        padding: 5px;
+    }
+
+    .conteudo-enredo {
+        top: 20%;
+        padding: 15px;
+        font-size: 1.2em;
+        letter-spacing: 5px;
+    }
+
+    .conteudo-cenario {
+        top: 12%;
+        bottom: 12%;
+        font-size: 1.2em;
+        letter-spacing: 4px;
+    }
+
+    footer h4 {
+        color: #919496;
+        font-size: 0.6em;
+        text-transform: uppercase;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    h1 {
+        font-size: 4em;
+    }
+    
+    .logo {
+      font-size: 1.5em;
+      margin: 2px;
+    }
+
+    header nav ul li {
+    font-size: 12px;
+    margin: 2px;
+    padding: 8px;
+    }
+
+    .conteudo-enredo {
+        top: 20%;
+        padding: 15px;
+        font-size: 1.5em;
+        letter-spacing: 5px;
+    }
+    
+    .conteudo-cenario {
+        top: 20%;
+        bottom: 15%;
+        font-size: 1.3em;
+        letter-spacing: 4px;
+    }
+
+    footer h4 {
+        color: #919496;
+        font-size: 0.8em;
+        text-transform: uppercase;
+    }
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    h1 {
+        font-size: 5em;
+    }
+
+    .conteudo-enredo {
+        top: 20%;
+        padding: 15px;
+        font-size: 1.5em;
+        letter-spacing: 5px;
+    }
+
+    .conteudo-cenario {
+        top: 20%;
+        bottom: 15%;
+        font-size: 1.5em;
+        letter-spacing: 4px;
+    }
+
+    footer h4 {
+        color: #919496;
+        font-size: 1.2em;
+        text-transform: uppercase;
+    }
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    h1 {
+        font-size: 6em;
+    }
+ }
