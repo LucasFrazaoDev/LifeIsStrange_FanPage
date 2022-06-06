@@ -45,6 +45,7 @@ nav.navbar-transparente {
 
 .navbar-light .navbar-nav .nav-link:hover {
     color: #f58338;
+    transition: 0.5s all;
 }
 
 header .navbar-nav { 
@@ -178,6 +179,7 @@ footer h4 {
 footer .navbar-nav a {
     color: white;
     font-size: 1em;
+    text-decoration: none;
 }
 
 footer .navbar-nav a:hover {
